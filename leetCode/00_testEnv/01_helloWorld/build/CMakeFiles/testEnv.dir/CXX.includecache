@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zhenguowzg/文档/leetCode/00_testEnv/01_helloWorld/main.cpp
+sensorFusion.h
+/home/zhenguowzg/文档/leetCode/00_testEnv/01_helloWorld/sensorFusion.h
+
+/home/zhenguowzg/文档/leetCode/00_testEnv/01_helloWorld/sensorFusion.cpp
+sensorFusion.h
+/home/zhenguowzg/文档/leetCode/00_testEnv/01_helloWorld/sensorFusion.h
+
+/home/zhenguowzg/文档/leetCode/00_testEnv/01_helloWorld/sensorFusion.h
+iostream
+-
+
