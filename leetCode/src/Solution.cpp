@@ -57,4 +57,27 @@ ListNode* Solution::addTwoNumbers(ListNode* l1, ListNode* l2){
 
 }
 
+int Solution::lengthOfLongesSubstring(string s) {
+    int flags[256]={};
+    for(int i=0;i<256;i++)
+       flags[i]=-1;
+
+    int longest=0;
+    int i=0;
+    int collision=-1;
+
+    while(s[i]!=0){
+        if(flags[s[i]]!=-1)
+            collision = max(collision,flags[s[i]]);
+        flags[s[i]]=i;
+        longest = max((i-collision),longest);
+        i++;
+    }
+    return longest;
+}
+
+
+
+
+
 

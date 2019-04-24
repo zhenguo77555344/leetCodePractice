@@ -20,18 +20,14 @@ SelfStruct.h
 
 /home/nick/Documents/Udacity/leetCodePractice/leetCode/src/SelfStruct.h
 
-/home/nick/Documents/Udacity/leetCodePractice/leetCode/src/Solution.cpp
-SelfStruct.h
-/home/nick/Documents/Udacity/leetCodePractice/leetCode/src/SelfStruct.h
-Solution.h
-/home/nick/Documents/Udacity/leetCodePractice/leetCode/src/Solution.h
-
 /home/nick/Documents/Udacity/leetCodePractice/leetCode/src/Solution.h
 iostream
 -
 vector
 -
 map
+-
+math.h
 -
 SelfStruct.h
 /home/nick/Documents/Udacity/leetCodePractice/leetCode/src/SelfStruct.h

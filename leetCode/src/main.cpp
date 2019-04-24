@@ -34,6 +34,14 @@ int main() {
 
     cout<<"ret = "<<ret<<endl;
 
+    //3. lengthOfLongesSubstring
+    cout<<"Hello length Of Longest SubString"<<endl;
+    int longest;
+    string s = "abcabcbb";
+
+    longest = leetCode->lengthOfLongesSubstring(s);
+
+    cout<<"The length of longest sub string is "<<longest<<endl;
 
     return 0;
 }

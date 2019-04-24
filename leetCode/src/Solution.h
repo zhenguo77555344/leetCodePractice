@@ -8,6 +8,7 @@
 #include <iostream>
 #include <vector>
 #include <map>
+#include <math.h>
 #include "SelfStruct.h"
 
 #include "BaseFunction.h"
@@ -21,6 +22,7 @@ public:
   //  void testCaseIni();
     vector<int> towSum(vector<int>& nums,int target);
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2);
+    int lengthOfLongesSubstring(string s);
 
 private:
     vector<int> m_nums;
